@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:title="Delete"
+        android:icon="@drawable/ic_delete"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_save"
+        android:title="Save"
+        android:icon="@drawable/ic_save"
+        android:showAsAction="ifRoom" />
+
+</menu>
