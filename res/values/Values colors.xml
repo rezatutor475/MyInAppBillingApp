@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colors -->
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryDarkColor">#3700B3</color>
+    <color name="accentColor">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="lightGray">#F5F5F5</color>
+
+    <!-- Strings -->
+    <string name="app_name">MyInAppBilling</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="cancel">Cancel</string>
+    <string name="purchase_success">Purchase successful!</string>
+    <string name="purchase_failed">Purchase failed. Try again.</string>
+    <string name="membership_active">Membership Active</string>
+    <string name="membership_inactive">Membership Inactive</string>
+
+    <!-- Dimensions -->
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+
+    <!-- Styles -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+
+</resources>
