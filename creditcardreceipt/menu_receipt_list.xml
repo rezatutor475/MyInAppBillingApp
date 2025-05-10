@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Search Option -->
+    <item
+        android:id="@id/action_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="android.widget.SearchView" />
+
+    <!-- Sort Options -->
+    <item
+        android:id="@+id/action_sort"
+        android:title="Sort"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_sort_by_date"
+                android:title="Sort by Date" />
+            <item
+                android:id="@+id/action_sort_by_amount"
+                android:title="Sort by Amount" />
+        </menu>
+    </item>
+
+    <!-- Group Option -->
+    <item
+        android:id="@+id/action_group_by_merchant"
+        android:title="Group by Merchant"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:showAsAction="never" />
+
+</menu>
