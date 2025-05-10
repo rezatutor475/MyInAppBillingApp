@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextDatabaseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Database Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextDatabaseVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Database Version"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonSetupDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setup Database" />
+
+    <Button
+        android:id="@+id/buttonClearForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Form" />
+
+    <Button
+        android:id="@+id/buttonTestConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Connection" />
+
+</LinearLayout>
